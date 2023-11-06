@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    background-color: rgb(243, 27, 243);
+    display: flex;
+    gap: 20px;
+    grid-gap: 20px;
+    
+
+}
+.logo {
+    width: 100px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    grid-gap: 10px;
+    align-items: center;
+    height: 100%;
+
+}
+
+.menu_item a {
+    color: white;
+    text-decoration:none;
+}
+
+.menu_item.active a {
+    text-decoration: underline double;
+} 
+
+.imagenprincipal {
+    height: 80vh;
+    background-image: url("../img/paisaje2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 150px;
+}
+
+.imagenprincipal h2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.11);
+    padding-inline: 15px;
+}
+
+.imagenprincipal p {
+    color: white;
+    text-align: center;
+}
+
+.tarjetitas {
+    display: flex;
+    padding: 60px;
+    gap: 10px;
+}
+.tarjetita {
+    background-color:rgb(243, 27, 243) ;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+}
+
+.tarjetita_imagen {
+    width: 100%;
+}
+
+.informacion {
+    padding-inline: 20px;
+    padding-bottom: 20px;
+}
+
+.tarjetitauno {
+    width: 200px;   
+}
+
+.tarjetitados {
+    width: 500px;
+}
+
+.tarjetitatres {
+    width: 900px;
+}
+
+.footer {
+    background-color: rgb(243, 27, 243);
+    color: white;
+    padding-block: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+
+    
+
+}
